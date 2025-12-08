@@ -1,0 +1,10 @@
+{
+  "java.project.referencedLibraries": [
+    "json.jar",
+    "text-file-handler-2.0.1.jar"
+  ],
+  "java.project.outputPath": ".",
+  "java.project.sourcePaths": [
+    "."
+  ]
+}

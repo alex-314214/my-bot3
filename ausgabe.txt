@@ -1,0 +1,6268 @@
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [3, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0????????????????WWWW?????????0
+1???????????????     ?????????1
+2??????????????     ??????????2
+3?????????????    W???????????3
+4????????????    W????????????4
+5???????????     W?????????? W5
+6??????????       W??????    W6
+7?????????         WWW      ??7
+8????????                ??? W8
+9???????             ??      W9
+0??????          W           W0
+1?????                       W1
+2???W                        W2
+3??WB                        W3
+4??                          W4
+5?                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 286
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 38
+
+
+nearestField: [4, 12] 	shortest distance: 2
+
+position: [3,13]
+
+target: [4,12]
+
+advantageous direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 55
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????         ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??W B                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 358
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 37
+
+
+nearestField: [3, 11] 	shortest distance: 3
+
+position: [4,13]
+
+target: [3,11]
+
+advantageous direction: WEST
+
+advantageous direction: NORTH
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 17
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [3, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????         ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??WB                        W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 286
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 24
+
+
+nearestField: [19, 9] 	shortest distance: 20
+
+position: [3,13]
+
+target: [19,9]
+
+advantageous direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 74
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????         ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??W B                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 358
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 37
+
+
+nearestField: [3, 11] 	shortest distance: 3
+
+position: [4,13]
+
+target: [3,11]
+
+advantageous direction: WEST
+
+advantageous direction: NORTH
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [3, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????         ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??WB                        W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 286
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 24
+
+
+nearestField: [19, 9] 	shortest distance: 20
+
+position: [3,13]
+
+target: [19,9]
+
+advantageous direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????         ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??W B                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 358
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 37
+
+
+nearestField: [3, 11] 	shortest distance: 3
+
+position: [4,13]
+
+target: [3,11]
+
+advantageous direction: WEST
+
+advantageous direction: NORTH
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [17, 1] with TTL + 300
+
+gems set:
+
+
+current bot postion: [3, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????      G  ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??WB                        W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [3,13]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [17, 1] with TTL + 298
+
+gems set:
+Gem at [17, 1] with TTL + 298
+
+
+current bot postion: [4, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????      G  ?????????1
+2W     W???         ??????????2
+3?     W???       W???????????3
+4?     W??       W????????????4
+5?      WW       W?????????? W5
+6??               W??????    W6
+7??                WWW      ??7
+8??                      ??? W8
+9???                 ??      W9
+0???             W           W0
+1???                         W1
+2???W                        W2
+3??W B                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [4,13]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 295
+
+gems set:
+Gem at [17, 1] with TTL + 295
+
+
+current bot postion: [4, 12]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????      G  ?????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                         ? W8
+9?                    ?      W9
+0??              W           W0
+1???                         W1
+2???WB                       W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [4,12]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [17, 1] with TTL + 292
+
+gems set:
+Gem at [17, 1] with TTL + 292
+
+
+current bot postion: [4, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWW?????????0
+1W      ????      G  ?????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1??W B                       W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [4,11]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 289
+
+gems set:
+Gem at [17, 1] with TTL + 289
+
+
+current bot postion: [4, 10]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWWW????????0
+1W      ????      G   ????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W   B           W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [4,10]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+current gem at: [17, 1] with TTL + 286
+
+gems set:
+Gem at [17, 1] with TTL + 286
+
+
+current bot postion: [5, 10]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW?????WWWWWWWWW????????0
+1W      ????      G   ????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W    B          W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [5,10]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 283
+
+gems set:
+Gem at [17, 1] with TTL + 283
+
+
+current bot postion: [6, 10]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWW????????0
+1W      ????      G   ????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W     B         W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [6,10]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [17, 1] with TTL + 280
+
+gems set:
+Gem at [17, 1] with TTL + 280
+
+
+current bot postion: [6, 9]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWW????????0
+1W      ????      G   ????????1
+2W     W???         ??????????2
+3W     W???       W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W     B                     W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [6,9]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [17, 1] with TTL + 277
+
+gems set:
+Gem at [17, 1] with TTL + 277
+
+
+current bot postion: [7, 9]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWW????????0
+1W      ???       G   ????????1
+2W     W???         ??????????2
+3W     W??        W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W      B                    W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [7,9]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 274
+
+gems set:
+Gem at [17, 1] with TTL + 274
+
+
+current bot postion: [7, 8]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWW????????0
+1W      ???       G   ????????1
+2W     W???         ??????????2
+3W     W??        W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W      B                    W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [7,8]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [17, 1] with TTL + 271
+
+gems set:
+Gem at [17, 1] with TTL + 271
+
+
+current bot postion: [7, 7]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWWW???????0
+1W      ???       G    ???????1
+2W     W???          ?????????2
+3W     W??        W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W      B          WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [7,7]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 74
+
+Gems:
+
+current gem at: [17, 1] with TTL + 268
+
+gems set:
+Gem at [17, 1] with TTL + 268
+
+
+current bot postion: [7, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWWW???????0
+1W      ???       G    ???????1
+2W     W???          ?????????2
+3W     W??        W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W      B         W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [7,6]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [17, 1] with TTL + 265
+
+gems set:
+Gem at [17, 1] with TTL + 265
+
+
+current bot postion: [8, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW????WWWWWWWWWWW???????0
+1W      ???       G    ???????1
+2W     W???          ?????????2
+3W     W??        W???????????3
+4W     W??       W????????????4
+5W      WW       W?????????? W5
+6W       B        W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [8,6]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+current gem at: [17, 1] with TTL + 262
+
+gems set:
+Gem at [17, 1] with TTL + 262
+
+
+current bot postion: [9, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW???WWWWWWWWWWWW???????0
+1W      ???       G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W        B       W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [9,6]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 81
+
+Gems:
+
+current gem at: [17, 1] with TTL + 259
+
+gems set:
+Gem at [17, 1] with TTL + 259
+
+
+current bot postion: [10, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ??        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W         B      W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [10,6]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 256
+
+gems set:
+Gem at [17, 1] with TTL + 256
+
+
+current bot postion: [11, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ??        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W          B     W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [11,6]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [17, 1] with TTL + 253
+
+gems set:
+Gem at [17, 1] with TTL + 253
+
+
+current bot postion: [11, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ??        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW  B    W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [11,5]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+current gem at: [17, 1] with TTL + 250
+
+gems set:
+Gem at [17, 1] with TTL + 250
+
+
+current bot postion: [12, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ??        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW   B   W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [12,5]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [17, 1] with TTL + 247
+
+gems set:
+Gem at [17, 1] with TTL + 247
+
+
+current bot postion: [13, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ??        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW    B  W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [13,5]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 244
+
+gems set:
+Gem at [17, 1] with TTL + 244
+
+
+current bot postion: [14, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ?W        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW     B W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [14,5]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 84
+
+Gems:
+
+current gem at: [17, 1] with TTL + 241
+
+gems set:
+Gem at [17, 1] with TTL + 241
+
+
+current bot postion: [15, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ?W        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W       W????????????4
+5W      WW      BW?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [15,5]
+
+target: [17,1]
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 70
+
+Gems:
+
+current gem at: [17, 1] with TTL + 238
+
+gems set:
+Gem at [17, 1] with TTL + 238
+
+
+current bot postion: [15, 4]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWW???????0
+1W      ?W        G    ???????1
+2W     W??W          ?????????2
+3W     W?W        W???????????3
+4W     W?W      BW????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [15,4]
+
+target: [17,1]
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 235
+
+gems set:
+Gem at [17, 1] with TTL + 235
+
+
+current bot postion: [15, 3]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWW??????0
+1W      ?W        G     ??????1
+2W     W??W          ?????????2
+3W     W?W      B W???????????3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [15,3]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+current gem at: [17, 1] with TTL + 232
+
+gems set:
+Gem at [17, 1] with TTL + 232
+
+
+current bot postion: [16, 3]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWW??????0
+1W      ?W        G     ??????1
+2W     W??W          ?????????2
+3W     W?W       BW???????????3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [16,3]
+
+target: [17,1]
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 229
+
+gems set:
+Gem at [17, 1] with TTL + 229
+
+
+current bot postion: [16, 2]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W        G          W1
+2W     W??W      B           W2
+3W     W?W        WWWW       W3
+4W     W?W       W????????????4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [16,2]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [17, 1] with TTL + 226
+
+gems set:
+Gem at [17, 1] with TTL + 226
+
+
+current bot postion: [16, 1]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W       BG          W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W???????    W4
+5W      WW       W?????????? W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [16,1]
+
+target: [17,1]
+
+advantageous direction: EAST
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 80
+
+found gems: 1
+
+
+Gems:
+
+current gem at: [4, 13] with TTL + 300
+
+gems set:
+
+
+current bot postion: [17, 1]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W        B          W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [17,1]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+current gem at: [4, 13] with TTL + 298
+
+gems set:
+Gem at [4, 13] with TTL + 298
+
+
+current bot postion: [17, 2]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W       B          W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [17,2]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+current gem at: [4, 13] with TTL + 295
+
+gems set:
+Gem at [4, 13] with TTL + 295
+
+
+current bot postion: [16, 2]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W      B           W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [16,2]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+current gem at: [4, 13] with TTL + 292
+
+gems set:
+Gem at [4, 13] with TTL + 292
+
+
+current bot postion: [15, 2]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W     B            W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [15,2]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 289
+
+gems set:
+Gem at [4, 13] with TTL + 289
+
+
+current bot postion: [15, 3]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W      B WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [15,3]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 286
+
+gems set:
+Gem at [4, 13] with TTL + 286
+
+
+current bot postion: [14, 3]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W     B  WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [14,3]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [4, 13] with TTL + 283
+
+gems set:
+Gem at [4, 13] with TTL + 283
+
+
+current bot postion: [14, 4]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W     B W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [14,4]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [4, 13] with TTL + 280
+
+gems set:
+Gem at [4, 13] with TTL + 280
+
+
+current bot postion: [13, 4]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W    B  W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [13,4]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [4, 13] with TTL + 277
+
+gems set:
+Gem at [4, 13] with TTL + 277
+
+
+current bot postion: [13, 5]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW    B  W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [13,5]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 274
+
+gems set:
+Gem at [4, 13] with TTL + 274
+
+
+current bot postion: [13, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W            B   W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [13,6]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+current gem at: [4, 13] with TTL + 271
+
+gems set:
+Gem at [4, 13] with TTL + 271
+
+
+current bot postion: [12, 6]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W           B    W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [12,6]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [4, 13] with TTL + 268
+
+gems set:
+Gem at [4, 13] with TTL + 268
+
+
+current bot postion: [12, 7]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W           B     WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [12,7]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+current gem at: [4, 13] with TTL + 265
+
+gems set:
+Gem at [4, 13] with TTL + 265
+
+
+current bot postion: [11, 7]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W          B      WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [11,7]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 262
+
+gems set:
+Gem at [4, 13] with TTL + 262
+
+
+current bot postion: [10, 7]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W         B       WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [10,7]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+current gem at: [4, 13] with TTL + 259
+
+gems set:
+Gem at [4, 13] with TTL + 259
+
+
+current bot postion: [10, 8]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W         B                 W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [10,8]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 80
+
+Gems:
+
+current gem at: [4, 13] with TTL + 256
+
+gems set:
+Gem at [4, 13] with TTL + 256
+
+
+current bot postion: [10, 9]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W         B                 W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [10,9]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 74
+
+Gems:
+
+current gem at: [4, 13] with TTL + 253
+
+gems set:
+Gem at [4, 13] with TTL + 253
+
+
+current bot postion: [9, 9]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W        B                  W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [9,9]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [4, 13] with TTL + 250
+
+gems set:
+Gem at [4, 13] with TTL + 250
+
+
+current bot postion: [9, 10]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W        B      W           W0
+1W W                         W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [9,10]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [4, 13] with TTL + 247
+
+gems set:
+Gem at [4, 13] with TTL + 247
+
+
+current bot postion: [9, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W      B                  W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [9,11]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+current gem at: [4, 13] with TTL + 244
+
+gems set:
+Gem at [4, 13] with TTL + 244
+
+
+current bot postion: [8, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W     B                   W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [8,11]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 241
+
+gems set:
+Gem at [4, 13] with TTL + 241
+
+
+current bot postion: [7, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W    B                    W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [7,11]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 238
+
+gems set:
+Gem at [4, 13] with TTL + 238
+
+
+current bot postion: [6, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W   B                     W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [6,11]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+current gem at: [4, 13] with TTL + 235
+
+gems set:
+Gem at [4, 13] with TTL + 235
+
+
+current bot postion: [5, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W  B                      W1
+2???W                        W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [5,11]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 232
+
+gems set:
+Gem at [4, 13] with TTL + 232
+
+
+current bot postion: [5, 12]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W??????    W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W B                      W2
+3??W G                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [5,12]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+current gem at: [4, 13] with TTL + 229
+
+gems set:
+Gem at [4, 13] with TTL + 229
+
+
+current bot postion: [5, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W GB                      W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+position: [5,13]
+
+target: [4,13]
+
+advantageous direction: WEST
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 78
+
+found gems: 2
+
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3??W B                       W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 358
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 5
+
+
+nearestField: [1, 14] 	shortest distance: 4
+
+position: [4,13]
+
+target: [1,14]
+
+advantageous direction: WEST
+
+advantageous direction: SOUTH
+
+unfavorable direction: EAST
+
+unfavorable direction: NORTH
+
+chosen direction: SOUTH
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3W W                         W3
+4W   B                       W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 356
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 6
+
+
+nearestField: [1, 13] 	shortest distance: 4
+
+position: [4,14]
+
+target: [1,13]
+
+advantageous direction: WEST
+
+advantageous direction: NORTH
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [3, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3W W                         W3
+4W  B                        W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 323
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 5
+
+
+nearestField: [1, 13] 	shortest distance: 3
+
+position: [3,14]
+
+target: [1,13]
+
+advantageous direction: WEST
+
+advantageous direction: NORTH
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [2, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2???W                        W2
+3W W                         W3
+4W B                         W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 288
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 5
+
+
+nearestField: [1, 13] 	shortest distance: 2
+
+position: [2,14]
+
+target: [1,13]
+
+advantageous direction: WEST
+
+unfavorable direction: EAST
+
+unfavorable direction: SOUTH
+
+chosen direction: WEST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [1, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W                         W3
+4WB                          W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 220
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 3
+
+
+nearestField: [21, 7] 	shortest distance: 27
+
+position: [1,14]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [2, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W                         W3
+4W B                         W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 288
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 4
+
+
+nearestField: [21, 7] 	shortest distance: 26
+
+position: [2,14]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [3, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W                         W3
+4W  B                        W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 323
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 4
+
+
+nearestField: [21, 7] 	shortest distance: 25
+
+position: [3,14]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 76
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [4, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W                         W3
+4W   B                       W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 356
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 5
+
+
+nearestField: [6, 1] 	shortest distance: 15
+
+position: [4,14]
+
+target: [6,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 86
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [5, 14]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W                         W3
+4W    B                      W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 359
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 1
+
+
+nearestField: [6, 1] 	shortest distance: 14
+
+position: [5,14]
+
+target: [6,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 67
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [5, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W  B                      W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 367
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 5
+
+
+nearestField: [6, 1] 	shortest distance: 13
+
+position: [5,13]
+
+target: [6,1]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 77
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [6, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W   B                     W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 365
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 4
+
+
+nearestField: [21, 7] 	shortest distance: 21
+
+position: [6,13]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [7, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W    B                    W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 356
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 0
+
+i: 0	[5; 15]
+xMin: 5
+xMax:9
+yMin:11
+yMax: 15
+[6, 15]
+[7, 15]
+[8, 15]
+[9, 15]
+
+[9, 14]
+[9, 13]
+[9, 12]
+[9, 11]
+
+[8, 11]
+[7, 11]
+[6, 11]
+[5, 11]
+
+[5, 12]
+[5, 13]
+[5, 14]
+[5, 15]
+
+i: 1	[4; 16]
+xMin: 4
+xMax:10
+yMin:10
+yMax: 16
+[5, 16]
+[6, 16]
+[7, 16]
+[8, 16]
+[9, 16]
+[10, 16]
+
+[10, 15]
+[10, 14]
+[10, 13]
+[10, 12]
+[10, 11]
+[10, 10]
+
+[9, 10]
+[8, 10]
+[7, 10]
+[6, 10]
+[5, 10]
+[4, 10]
+
+[4, 11]
+[4, 12]
+[4, 13]
+[4, 14]
+[4, 15]
+[4, 16]
+
+i: 2	[3; 17]
+xMin: 3
+xMax:11
+yMin:9
+yMax: 17
+[4, 17]
+[5, 17]
+[6, 17]
+[7, 17]
+[8, 17]
+[9, 17]
+[10, 17]
+[11, 17]
+
+[11, 16]
+[11, 15]
+[11, 14]
+[11, 13]
+[11, 12]
+[11, 11]
+[11, 10]
+[11, 9]
+
+[10, 9]
+[9, 9]
+[8, 9]
+[7, 9]
+[6, 9]
+[5, 9]
+[4, 9]
+[3, 9]
+
+[3, 10]
+[3, 11]
+[3, 12]
+[3, 13]
+[3, 14]
+[3, 15]
+[3, 16]
+[3, 17]
+
+i: 3	[2; 18]
+xMin: 2
+xMax:12
+yMin:8
+yMax: 18
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+
+[12, 17]
+[12, 16]
+[12, 15]
+[12, 14]
+[12, 13]
+[12, 12]
+[12, 11]
+[12, 10]
+[12, 9]
+[12, 8]
+
+[11, 8]
+[10, 8]
+[9, 8]
+[8, 8]
+[7, 8]
+[6, 8]
+[5, 8]
+[4, 8]
+[3, 8]
+[2, 8]
+
+[2, 9]
+[2, 10]
+[2, 11]
+[2, 12]
+[2, 13]
+[2, 14]
+[2, 15]
+[2, 16]
+[2, 17]
+[2, 18]
+
+i: 4	[1; 18]
+xMin: 1
+xMax:13
+yMin:7
+yMax: 18
+[2, 18]
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+
+[13, 17]
+[13, 16]
+[13, 15]
+[13, 14]
+[13, 13]
+[13, 12]
+[13, 11]
+[13, 10]
+[13, 9]
+[13, 8]
+[13, 7]
+
+[12, 7]
+[11, 7]
+[10, 7]
+[9, 7]
+[8, 7]
+[7, 7]
+[6, 7]
+[5, 7]
+[4, 7]
+[3, 7]
+[2, 7]
+[1, 7]
+
+[1, 8]
+[1, 9]
+[1, 10]
+[1, 11]
+[1, 12]
+[1, 13]
+[1, 14]
+[1, 15]
+[1, 16]
+[1, 17]
+[1, 18]
+set to: [14, 18]  skip: 1
+
+i: 5	[14; 18]
+xMin: 0
+xMax:14
+yMin:6
+yMax: 18
+[14, 17]
+[14, 16]
+[14, 15]
+[14, 14]
+[14, 13]
+[14, 12]
+[14, 11]
+[14, 10]
+[14, 9]
+[14, 8]
+[14, 7]
+[14, 6]
+
+[13, 6]
+[12, 6]
+[11, 6]
+[10, 6]
+[9, 6]
+[8, 6]
+[7, 6]
+[6, 6]
+[5, 6]
+[4, 6]
+[3, 6]
+[2, 6]
+[1, 6]
+[0, 6]
+
+[0, 7]
+[0, 8]
+[0, 9]
+[0, 10]
+[0, 11]
+[0, 12]
+[0, 13]
+[0, 14]
+[0, 15]
+[0, 16]
+[0, 17]
+[0, 18]
+set to: [15, 18]  skip: 1
+
+i: 6	[15; 18]
+xMin: 0
+xMax:15
+yMin:5
+yMax: 18
+[15, 17]
+[15, 16]
+[15, 15]
+[15, 14]
+[15, 13]
+[15, 12]
+[15, 11]
+[15, 10]
+[15, 9]
+[15, 8]
+[15, 7]
+[15, 6]
+[15, 5]
+
+[14, 5]
+[13, 5]
+[12, 5]
+[11, 5]
+[10, 5]
+[9, 5]
+[8, 5]
+[7, 5]
+[6, 5]
+[5, 5]
+[4, 5]
+[3, 5]
+[2, 5]
+[1, 5]
+[0, 5]
+set to: [0, 18]  skip: 2
+
+i: 7	[0; 18]
+xMin: 0
+xMax:16
+yMin:4
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+
+set to: [0, 18]  skip: 2
+
+i: 8	[0; 18]
+xMin: 0
+xMax:17
+yMin:3
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+
+set to: [0, 18]  skip: 2
+
+i: 9	[0; 18]
+xMin: 0
+xMax:18
+yMin:2
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+
+set to: [0, 18]  skip: 2
+
+i: 10	[0; 18]
+xMin: 0
+xMax:19
+yMin:1
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+
+set to: [0, 18]  skip: 2
+
+i: 11	[0; 18]
+xMin: 0
+xMax:20
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+
+set to: [0, 18]  skip: 2
+
+i: 12	[0; 18]
+xMin: 0
+xMax:21
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+set to: [0, 0]  skip: 2
+
+i: 13	[0; 18]
+xMin: 0
+xMax:22
+yMin:0
+yMax: 18
+[1, 18]
+[2, 18]
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+[18, 18]
+[19, 18]
+[20, 18]
+[21, 18]
+[22, 18]
+
+[22, 17]
+[22, 16]
+[22, 15]
+[22, 14]
+[22, 13]
+[22, 12]
+[22, 11]
+[22, 10]
+[22, 9]
+[22, 8]
+[22, 7]
+
+scouting to: [22, 7]
+
+position: [7,13]
+
+target: [22,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 79
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [8, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W     B                   W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 358
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 0
+
+i: 0	[6; 15]
+xMin: 6
+xMax:10
+yMin:11
+yMax: 15
+[7, 15]
+[8, 15]
+[9, 15]
+[10, 15]
+
+[10, 14]
+[10, 13]
+[10, 12]
+[10, 11]
+
+[9, 11]
+[8, 11]
+[7, 11]
+[6, 11]
+
+[6, 12]
+[6, 13]
+[6, 14]
+[6, 15]
+
+i: 1	[5; 16]
+xMin: 5
+xMax:11
+yMin:10
+yMax: 16
+[6, 16]
+[7, 16]
+[8, 16]
+[9, 16]
+[10, 16]
+[11, 16]
+
+[11, 15]
+[11, 14]
+[11, 13]
+[11, 12]
+[11, 11]
+[11, 10]
+
+[10, 10]
+[9, 10]
+[8, 10]
+[7, 10]
+[6, 10]
+[5, 10]
+
+[5, 11]
+[5, 12]
+[5, 13]
+[5, 14]
+[5, 15]
+[5, 16]
+
+i: 2	[4; 17]
+xMin: 4
+xMax:12
+yMin:9
+yMax: 17
+[5, 17]
+[6, 17]
+[7, 17]
+[8, 17]
+[9, 17]
+[10, 17]
+[11, 17]
+[12, 17]
+
+[12, 16]
+[12, 15]
+[12, 14]
+[12, 13]
+[12, 12]
+[12, 11]
+[12, 10]
+[12, 9]
+
+[11, 9]
+[10, 9]
+[9, 9]
+[8, 9]
+[7, 9]
+[6, 9]
+[5, 9]
+[4, 9]
+
+[4, 10]
+[4, 11]
+[4, 12]
+[4, 13]
+[4, 14]
+[4, 15]
+[4, 16]
+[4, 17]
+
+i: 3	[3; 18]
+xMin: 3
+xMax:13
+yMin:8
+yMax: 18
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+
+[13, 17]
+[13, 16]
+[13, 15]
+[13, 14]
+[13, 13]
+[13, 12]
+[13, 11]
+[13, 10]
+[13, 9]
+[13, 8]
+
+[12, 8]
+[11, 8]
+[10, 8]
+[9, 8]
+[8, 8]
+[7, 8]
+[6, 8]
+[5, 8]
+[4, 8]
+[3, 8]
+
+[3, 9]
+[3, 10]
+[3, 11]
+[3, 12]
+[3, 13]
+[3, 14]
+[3, 15]
+[3, 16]
+[3, 17]
+[3, 18]
+
+i: 4	[2; 18]
+xMin: 2
+xMax:14
+yMin:7
+yMax: 18
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+
+[14, 17]
+[14, 16]
+[14, 15]
+[14, 14]
+[14, 13]
+[14, 12]
+[14, 11]
+[14, 10]
+[14, 9]
+[14, 8]
+[14, 7]
+
+[13, 7]
+[12, 7]
+[11, 7]
+[10, 7]
+[9, 7]
+[8, 7]
+[7, 7]
+[6, 7]
+[5, 7]
+[4, 7]
+[3, 7]
+[2, 7]
+
+[2, 8]
+[2, 9]
+[2, 10]
+[2, 11]
+[2, 12]
+[2, 13]
+[2, 14]
+[2, 15]
+[2, 16]
+[2, 17]
+[2, 18]
+set to: [15, 18]  skip: 1
+
+i: 5	[15; 18]
+xMin: 1
+xMax:15
+yMin:6
+yMax: 18
+[15, 17]
+[15, 16]
+[15, 15]
+[15, 14]
+[15, 13]
+[15, 12]
+[15, 11]
+[15, 10]
+[15, 9]
+[15, 8]
+[15, 7]
+[15, 6]
+
+[14, 6]
+[13, 6]
+[12, 6]
+[11, 6]
+[10, 6]
+[9, 6]
+[8, 6]
+[7, 6]
+[6, 6]
+[5, 6]
+[4, 6]
+[3, 6]
+[2, 6]
+[1, 6]
+
+[1, 7]
+[1, 8]
+[1, 9]
+[1, 10]
+[1, 11]
+[1, 12]
+[1, 13]
+[1, 14]
+[1, 15]
+[1, 16]
+[1, 17]
+[1, 18]
+set to: [16, 18]  skip: 1
+
+i: 6	[16; 18]
+xMin: 0
+xMax:16
+yMin:5
+yMax: 18
+[16, 17]
+[16, 16]
+[16, 15]
+[16, 14]
+[16, 13]
+[16, 12]
+[16, 11]
+[16, 10]
+[16, 9]
+[16, 8]
+[16, 7]
+[16, 6]
+[16, 5]
+
+[15, 5]
+[14, 5]
+[13, 5]
+[12, 5]
+[11, 5]
+[10, 5]
+[9, 5]
+[8, 5]
+[7, 5]
+[6, 5]
+[5, 5]
+[4, 5]
+[3, 5]
+[2, 5]
+[1, 5]
+[0, 5]
+
+[0, 6]
+[0, 7]
+[0, 8]
+[0, 9]
+[0, 10]
+[0, 11]
+[0, 12]
+[0, 13]
+[0, 14]
+[0, 15]
+[0, 16]
+[0, 17]
+[0, 18]
+set to: [17, 18]  skip: 1
+
+i: 7	[17; 18]
+xMin: 0
+xMax:17
+yMin:4
+yMax: 18
+[17, 17]
+[17, 16]
+[17, 15]
+[17, 14]
+[17, 13]
+[17, 12]
+[17, 11]
+[17, 10]
+[17, 9]
+[17, 8]
+[17, 7]
+[17, 6]
+[17, 5]
+[17, 4]
+
+[16, 4]
+[15, 4]
+[14, 4]
+[13, 4]
+[12, 4]
+[11, 4]
+[10, 4]
+[9, 4]
+[8, 4]
+[7, 4]
+[6, 4]
+[5, 4]
+[4, 4]
+[3, 4]
+[2, 4]
+[1, 4]
+[0, 4]
+set to: [0, 18]  skip: 2
+
+i: 8	[0; 18]
+xMin: 0
+xMax:18
+yMin:3
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+
+set to: [0, 18]  skip: 2
+
+i: 9	[0; 18]
+xMin: 0
+xMax:19
+yMin:2
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+
+set to: [0, 18]  skip: 2
+
+i: 10	[0; 18]
+xMin: 0
+xMax:20
+yMin:1
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+
+set to: [0, 18]  skip: 2
+
+i: 11	[0; 18]
+xMin: 0
+xMax:21
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+
+set to: [0, 18]  skip: 2
+
+i: 12	[0; 18]
+xMin: 0
+xMax:22
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+set to: [0, 0]  skip: 2
+
+i: 13	[0; 18]
+xMin: 0
+xMax:23
+yMin:0
+yMax: 18
+[1, 18]
+[2, 18]
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+[18, 18]
+[19, 18]
+[20, 18]
+[21, 18]
+[22, 18]
+[23, 18]
+
+[23, 17]
+[23, 16]
+[23, 15]
+[23, 14]
+[23, 13]
+[23, 12]
+[23, 11]
+[23, 10]
+[23, 9]
+[23, 8]
+[23, 7]
+[23, 6]
+
+scouting to: [23, 6]
+
+position: [8,13]
+
+target: [23,6]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 75
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [9, 13]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W                        W2
+3W W      B                  W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 356
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 0
+
+i: 0	[7; 15]
+xMin: 7
+xMax:11
+yMin:11
+yMax: 15
+[8, 15]
+[9, 15]
+[10, 15]
+[11, 15]
+
+[11, 14]
+[11, 13]
+[11, 12]
+[11, 11]
+
+[10, 11]
+[9, 11]
+[8, 11]
+[7, 11]
+
+[7, 12]
+[7, 13]
+[7, 14]
+[7, 15]
+
+i: 1	[6; 16]
+xMin: 6
+xMax:12
+yMin:10
+yMax: 16
+[7, 16]
+[8, 16]
+[9, 16]
+[10, 16]
+[11, 16]
+[12, 16]
+
+[12, 15]
+[12, 14]
+[12, 13]
+[12, 12]
+[12, 11]
+[12, 10]
+
+[11, 10]
+[10, 10]
+[9, 10]
+[8, 10]
+[7, 10]
+[6, 10]
+
+[6, 11]
+[6, 12]
+[6, 13]
+[6, 14]
+[6, 15]
+[6, 16]
+
+i: 2	[5; 17]
+xMin: 5
+xMax:13
+yMin:9
+yMax: 17
+[6, 17]
+[7, 17]
+[8, 17]
+[9, 17]
+[10, 17]
+[11, 17]
+[12, 17]
+[13, 17]
+
+[13, 16]
+[13, 15]
+[13, 14]
+[13, 13]
+[13, 12]
+[13, 11]
+[13, 10]
+[13, 9]
+
+[12, 9]
+[11, 9]
+[10, 9]
+[9, 9]
+[8, 9]
+[7, 9]
+[6, 9]
+[5, 9]
+
+[5, 10]
+[5, 11]
+[5, 12]
+[5, 13]
+[5, 14]
+[5, 15]
+[5, 16]
+[5, 17]
+
+i: 3	[4; 18]
+xMin: 4
+xMax:14
+yMin:8
+yMax: 18
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+
+[14, 17]
+[14, 16]
+[14, 15]
+[14, 14]
+[14, 13]
+[14, 12]
+[14, 11]
+[14, 10]
+[14, 9]
+[14, 8]
+
+[13, 8]
+[12, 8]
+[11, 8]
+[10, 8]
+[9, 8]
+[8, 8]
+[7, 8]
+[6, 8]
+[5, 8]
+[4, 8]
+
+[4, 9]
+[4, 10]
+[4, 11]
+[4, 12]
+[4, 13]
+[4, 14]
+[4, 15]
+[4, 16]
+[4, 17]
+[4, 18]
+
+i: 4	[3; 18]
+xMin: 3
+xMax:15
+yMin:7
+yMax: 18
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+
+[15, 17]
+[15, 16]
+[15, 15]
+[15, 14]
+[15, 13]
+[15, 12]
+[15, 11]
+[15, 10]
+[15, 9]
+[15, 8]
+[15, 7]
+
+[14, 7]
+[13, 7]
+[12, 7]
+[11, 7]
+[10, 7]
+[9, 7]
+[8, 7]
+[7, 7]
+[6, 7]
+[5, 7]
+[4, 7]
+[3, 7]
+
+[3, 8]
+[3, 9]
+[3, 10]
+[3, 11]
+[3, 12]
+[3, 13]
+[3, 14]
+[3, 15]
+[3, 16]
+[3, 17]
+[3, 18]
+set to: [16, 18]  skip: 1
+
+i: 5	[16; 18]
+xMin: 2
+xMax:16
+yMin:6
+yMax: 18
+[16, 17]
+[16, 16]
+[16, 15]
+[16, 14]
+[16, 13]
+[16, 12]
+[16, 11]
+[16, 10]
+[16, 9]
+[16, 8]
+[16, 7]
+[16, 6]
+
+[15, 6]
+[14, 6]
+[13, 6]
+[12, 6]
+[11, 6]
+[10, 6]
+[9, 6]
+[8, 6]
+[7, 6]
+[6, 6]
+[5, 6]
+[4, 6]
+[3, 6]
+[2, 6]
+
+[2, 7]
+[2, 8]
+[2, 9]
+[2, 10]
+[2, 11]
+[2, 12]
+[2, 13]
+[2, 14]
+[2, 15]
+[2, 16]
+[2, 17]
+[2, 18]
+set to: [17, 18]  skip: 1
+
+i: 6	[17; 18]
+xMin: 1
+xMax:17
+yMin:5
+yMax: 18
+[17, 17]
+[17, 16]
+[17, 15]
+[17, 14]
+[17, 13]
+[17, 12]
+[17, 11]
+[17, 10]
+[17, 9]
+[17, 8]
+[17, 7]
+[17, 6]
+[17, 5]
+
+[16, 5]
+[15, 5]
+[14, 5]
+[13, 5]
+[12, 5]
+[11, 5]
+[10, 5]
+[9, 5]
+[8, 5]
+[7, 5]
+[6, 5]
+[5, 5]
+[4, 5]
+[3, 5]
+[2, 5]
+[1, 5]
+
+[1, 6]
+[1, 7]
+[1, 8]
+[1, 9]
+[1, 10]
+[1, 11]
+[1, 12]
+[1, 13]
+[1, 14]
+[1, 15]
+[1, 16]
+[1, 17]
+[1, 18]
+set to: [18, 18]  skip: 1
+
+i: 7	[18; 18]
+xMin: 0
+xMax:18
+yMin:4
+yMax: 18
+[18, 17]
+[18, 16]
+[18, 15]
+[18, 14]
+[18, 13]
+[18, 12]
+[18, 11]
+[18, 10]
+[18, 9]
+[18, 8]
+[18, 7]
+[18, 6]
+[18, 5]
+[18, 4]
+
+[17, 4]
+[16, 4]
+[15, 4]
+[14, 4]
+[13, 4]
+[12, 4]
+[11, 4]
+[10, 4]
+[9, 4]
+[8, 4]
+[7, 4]
+[6, 4]
+[5, 4]
+[4, 4]
+[3, 4]
+[2, 4]
+[1, 4]
+[0, 4]
+
+[0, 5]
+[0, 6]
+[0, 7]
+[0, 8]
+[0, 9]
+[0, 10]
+[0, 11]
+[0, 12]
+[0, 13]
+[0, 14]
+[0, 15]
+[0, 16]
+[0, 17]
+[0, 18]
+set to: [19, 18]  skip: 1
+
+i: 8	[19; 18]
+xMin: 0
+xMax:19
+yMin:3
+yMax: 18
+[19, 17]
+[19, 16]
+[19, 15]
+[19, 14]
+[19, 13]
+[19, 12]
+[19, 11]
+[19, 10]
+[19, 9]
+[19, 8]
+[19, 7]
+[19, 6]
+[19, 5]
+[19, 4]
+[19, 3]
+
+[18, 3]
+[17, 3]
+[16, 3]
+[15, 3]
+[14, 3]
+[13, 3]
+[12, 3]
+[11, 3]
+[10, 3]
+[9, 3]
+[8, 3]
+[7, 3]
+[6, 3]
+[5, 3]
+[4, 3]
+[3, 3]
+[2, 3]
+[1, 3]
+[0, 3]
+set to: [0, 18]  skip: 2
+
+i: 9	[0; 18]
+xMin: 0
+xMax:20
+yMin:2
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+
+set to: [0, 18]  skip: 2
+
+i: 10	[0; 18]
+xMin: 0
+xMax:21
+yMin:1
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+
+set to: [0, 18]  skip: 2
+
+i: 11	[0; 18]
+xMin: 0
+xMax:22
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+
+set to: [0, 18]  skip: 2
+
+i: 12	[0; 18]
+xMin: 0
+xMax:23
+yMin:0
+yMax: 18
+[0, 17]
+[0, 16]
+[0, 15]
+[0, 14]
+[0, 13]
+[0, 12]
+[0, 11]
+[0, 10]
+[0, 9]
+[0, 8]
+[0, 7]
+[0, 6]
+[0, 5]
+[0, 4]
+[0, 3]
+[0, 2]
+[0, 1]
+[0, 0]
+set to: [0, 0]  skip: 2
+
+i: 13	[0; 18]
+xMin: 0
+xMax:24
+yMin:0
+yMax: 18
+[1, 18]
+[2, 18]
+[3, 18]
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+[18, 18]
+[19, 18]
+[20, 18]
+[21, 18]
+[22, 18]
+[23, 18]
+[24, 18]
+
+[24, 17]
+[24, 16]
+[24, 15]
+[24, 14]
+[24, 13]
+[24, 12]
+[24, 11]
+[24, 10]
+[24, 9]
+[24, 8]
+[24, 7]
+[24, 6]
+
+scouting to: [24, 6]
+
+position: [9,13]
+
+target: [24,6]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [9, 12]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W     B                  W2
+3W W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 360
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 4
+
+
+nearestField: [21, 7] 	shortest distance: 17
+
+position: [9,12]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 73
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [10, 12]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W                         W1
+2?W?W      B                 W2
+3W W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 352
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 0
+
+i: 0	[8; 14]
+xMin: 8
+xMax:12
+yMin:10
+yMax: 14
+[9, 14]
+[10, 14]
+[11, 14]
+[12, 14]
+
+[12, 13]
+[12, 12]
+[12, 11]
+[12, 10]
+
+[11, 10]
+[10, 10]
+[9, 10]
+[8, 10]
+
+[8, 11]
+[8, 12]
+[8, 13]
+[8, 14]
+
+i: 1	[7; 15]
+xMin: 7
+xMax:13
+yMin:9
+yMax: 15
+[8, 15]
+[9, 15]
+[10, 15]
+[11, 15]
+[12, 15]
+[13, 15]
+
+[13, 14]
+[13, 13]
+[13, 12]
+[13, 11]
+[13, 10]
+[13, 9]
+
+[12, 9]
+[11, 9]
+[10, 9]
+[9, 9]
+[8, 9]
+[7, 9]
+
+[7, 10]
+[7, 11]
+[7, 12]
+[7, 13]
+[7, 14]
+[7, 15]
+
+i: 2	[6; 16]
+xMin: 6
+xMax:14
+yMin:8
+yMax: 16
+[7, 16]
+[8, 16]
+[9, 16]
+[10, 16]
+[11, 16]
+[12, 16]
+[13, 16]
+[14, 16]
+
+[14, 15]
+[14, 14]
+[14, 13]
+[14, 12]
+[14, 11]
+[14, 10]
+[14, 9]
+[14, 8]
+
+[13, 8]
+[12, 8]
+[11, 8]
+[10, 8]
+[9, 8]
+[8, 8]
+[7, 8]
+[6, 8]
+
+[6, 9]
+[6, 10]
+[6, 11]
+[6, 12]
+[6, 13]
+[6, 14]
+[6, 15]
+[6, 16]
+
+i: 3	[5; 17]
+xMin: 5
+xMax:15
+yMin:7
+yMax: 17
+[6, 17]
+[7, 17]
+[8, 17]
+[9, 17]
+[10, 17]
+[11, 17]
+[12, 17]
+[13, 17]
+[14, 17]
+[15, 17]
+
+[15, 16]
+[15, 15]
+[15, 14]
+[15, 13]
+[15, 12]
+[15, 11]
+[15, 10]
+[15, 9]
+[15, 8]
+[15, 7]
+
+[14, 7]
+[13, 7]
+[12, 7]
+[11, 7]
+[10, 7]
+[9, 7]
+[8, 7]
+[7, 7]
+[6, 7]
+[5, 7]
+
+[5, 8]
+[5, 9]
+[5, 10]
+[5, 11]
+[5, 12]
+[5, 13]
+[5, 14]
+[5, 15]
+[5, 16]
+[5, 17]
+
+i: 4	[4; 18]
+xMin: 4
+xMax:16
+yMin:6
+yMax: 18
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+
+[16, 17]
+[16, 16]
+[16, 15]
+[16, 14]
+[16, 13]
+[16, 12]
+[16, 11]
+[16, 10]
+[16, 9]
+[16, 8]
+[16, 7]
+[16, 6]
+
+[15, 6]
+[14, 6]
+[13, 6]
+[12, 6]
+[11, 6]
+[10, 6]
+[9, 6]
+[8, 6]
+[7, 6]
+[6, 6]
+[5, 6]
+[4, 6]
+
+[4, 7]
+[4, 8]
+[4, 9]
+[4, 10]
+[4, 11]
+[4, 12]
+[4, 13]
+[4, 14]
+[4, 15]
+[4, 16]
+[4, 17]
+[4, 18]
+
+i: 5	[3; 18]
+xMin: 3
+xMax:17
+yMin:5
+yMax: 18
+[4, 18]
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+
+[17, 17]
+[17, 16]
+[17, 15]
+[17, 14]
+[17, 13]
+[17, 12]
+[17, 11]
+[17, 10]
+[17, 9]
+[17, 8]
+[17, 7]
+[17, 6]
+[17, 5]
+
+[16, 5]
+[15, 5]
+[14, 5]
+[13, 5]
+[12, 5]
+[11, 5]
+[10, 5]
+[9, 5]
+[8, 5]
+[7, 5]
+[6, 5]
+[5, 5]
+[4, 5]
+[3, 5]
+
+[3, 6]
+[3, 7]
+[3, 8]
+[3, 9]
+[3, 10]
+[3, 11]
+[3, 12]
+[3, 13]
+[3, 14]
+[3, 15]
+[3, 16]
+[3, 17]
+[3, 18]
+set to: [18, 18]  skip: 1
+
+i: 6	[18; 18]
+xMin: 2
+xMax:18
+yMin:4
+yMax: 18
+[18, 17]
+[18, 16]
+[18, 15]
+[18, 14]
+[18, 13]
+[18, 12]
+[18, 11]
+[18, 10]
+[18, 9]
+[18, 8]
+[18, 7]
+[18, 6]
+[18, 5]
+[18, 4]
+
+[17, 4]
+[16, 4]
+[15, 4]
+[14, 4]
+[13, 4]
+[12, 4]
+[11, 4]
+[10, 4]
+[9, 4]
+[8, 4]
+[7, 4]
+[6, 4]
+[5, 4]
+[4, 4]
+[3, 4]
+[2, 4]
+
+[2, 5]
+[2, 6]
+[2, 7]
+[2, 8]
+[2, 9]
+[2, 10]
+[2, 11]
+[2, 12]
+[2, 13]
+[2, 14]
+[2, 15]
+[2, 16]
+[2, 17]
+[2, 18]
+set to: [19, 18]  skip: 1
+
+i: 7	[19; 18]
+xMin: 1
+xMax:19
+yMin:3
+yMax: 18
+[19, 17]
+[19, 16]
+[19, 15]
+[19, 14]
+[19, 13]
+[19, 12]
+[19, 11]
+[19, 10]
+[19, 9]
+[19, 8]
+[19, 7]
+[19, 6]
+[19, 5]
+[19, 4]
+[19, 3]
+
+[18, 3]
+[17, 3]
+[16, 3]
+[15, 3]
+[14, 3]
+[13, 3]
+[12, 3]
+[11, 3]
+[10, 3]
+[9, 3]
+[8, 3]
+[7, 3]
+[6, 3]
+[5, 3]
+[4, 3]
+[3, 3]
+[2, 3]
+[1, 3]
+
+[1, 4]
+[1, 5]
+[1, 6]
+[1, 7]
+[1, 8]
+[1, 9]
+[1, 10]
+[1, 11]
+[1, 12]
+[1, 13]
+[1, 14]
+[1, 15]
+[1, 16]
+[1, 17]
+[1, 18]
+set to: [20, 18]  skip: 1
+
+i: 8	[20; 18]
+xMin: 0
+xMax:20
+yMin:2
+yMax: 18
+[20, 17]
+[20, 16]
+[20, 15]
+[20, 14]
+[20, 13]
+[20, 12]
+[20, 11]
+[20, 10]
+[20, 9]
+[20, 8]
+[20, 7]
+[20, 6]
+[20, 5]
+[20, 4]
+[20, 3]
+[20, 2]
+
+[19, 2]
+[18, 2]
+[17, 2]
+[16, 2]
+[15, 2]
+[14, 2]
+[13, 2]
+[12, 2]
+[11, 2]
+[10, 2]
+[9, 2]
+[8, 2]
+[7, 2]
+[6, 2]
+[5, 2]
+[4, 2]
+[3, 2]
+[2, 2]
+[1, 2]
+[0, 2]
+
+[0, 3]
+[0, 4]
+[0, 5]
+[0, 6]
+[0, 7]
+[0, 8]
+[0, 9]
+[0, 10]
+[0, 11]
+[0, 12]
+[0, 13]
+[0, 14]
+[0, 15]
+[0, 16]
+[0, 17]
+[0, 18]
+set to: [21, 18]  skip: 1
+
+i: 9	[21; 18]
+xMin: 0
+xMax:21
+yMin:1
+yMax: 18
+[21, 17]
+[21, 16]
+[21, 15]
+[21, 14]
+[21, 13]
+[21, 12]
+[21, 11]
+[21, 10]
+[21, 9]
+[21, 8]
+[21, 7]
+
+scouting to: [21, 7]
+
+position: [10,12]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: NORTH
+doNotEnterFields.size(): 0
+time: 80
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [10, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W       B                 W1
+2?W?W                        W2
+3W W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 357
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 3
+
+
+nearestField: [21, 7] 	shortest distance: 15
+
+position: [10,11]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 73
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [11, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W        B                W1
+2?W?W                        W2
+3W W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 353
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 4
+
+
+nearestField: [21, 7] 	shortest distance: 14
+
+position: [11,11]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 78
+
+Gems:
+
+no current gem
+
+gems set:
+
+
+current bot postion: [12, 11]
+
+
+arena:
+ 01234567890123456789012345678
+0?WWWWWW??WWWWWWWWWWWWWWWWWWW?0
+1W      ?W                   W1
+2W     W??W                  W2
+3W     W?W        WWWW       W3
+4W     W?W       W??????     W4
+5W      WW       W????????   W5
+6W                W?????     W6
+7W                 WWW       W7
+8W                           W8
+9W                           W9
+0W               W           W0
+1W W         B               W1
+2?W?W                        W2
+3W W                         W3
+4W                           W4
+5W                           W5
+6W                           W6
+7W                           W7
+8?WWWWWWWWWWWWWWWWWWWWWWWWWWW?8
+ 01234567890123456789012345678
+
+scouting:
+
+
+visibleFloorFields.size(): 339
+
+visibleFloorFieldsWithUnkownNeighbours.size(): 0
+
+i: 0	[10; 13]
+xMin: 10
+xMax:14
+yMin:9
+yMax: 13
+[11, 13]
+[12, 13]
+[13, 13]
+[14, 13]
+
+[14, 12]
+[14, 11]
+[14, 10]
+[14, 9]
+
+[13, 9]
+[12, 9]
+[11, 9]
+[10, 9]
+
+[10, 10]
+[10, 11]
+[10, 12]
+[10, 13]
+
+i: 1	[9; 14]
+xMin: 9
+xMax:15
+yMin:8
+yMax: 14
+[10, 14]
+[11, 14]
+[12, 14]
+[13, 14]
+[14, 14]
+[15, 14]
+
+[15, 13]
+[15, 12]
+[15, 11]
+[15, 10]
+[15, 9]
+[15, 8]
+
+[14, 8]
+[13, 8]
+[12, 8]
+[11, 8]
+[10, 8]
+[9, 8]
+
+[9, 9]
+[9, 10]
+[9, 11]
+[9, 12]
+[9, 13]
+[9, 14]
+
+i: 2	[8; 15]
+xMin: 8
+xMax:16
+yMin:7
+yMax: 15
+[9, 15]
+[10, 15]
+[11, 15]
+[12, 15]
+[13, 15]
+[14, 15]
+[15, 15]
+[16, 15]
+
+[16, 14]
+[16, 13]
+[16, 12]
+[16, 11]
+[16, 10]
+[16, 9]
+[16, 8]
+[16, 7]
+
+[15, 7]
+[14, 7]
+[13, 7]
+[12, 7]
+[11, 7]
+[10, 7]
+[9, 7]
+[8, 7]
+
+[8, 8]
+[8, 9]
+[8, 10]
+[8, 11]
+[8, 12]
+[8, 13]
+[8, 14]
+[8, 15]
+
+i: 3	[7; 16]
+xMin: 7
+xMax:17
+yMin:6
+yMax: 16
+[8, 16]
+[9, 16]
+[10, 16]
+[11, 16]
+[12, 16]
+[13, 16]
+[14, 16]
+[15, 16]
+[16, 16]
+[17, 16]
+
+[17, 15]
+[17, 14]
+[17, 13]
+[17, 12]
+[17, 11]
+[17, 10]
+[17, 9]
+[17, 8]
+[17, 7]
+[17, 6]
+
+[16, 6]
+[15, 6]
+[14, 6]
+[13, 6]
+[12, 6]
+[11, 6]
+[10, 6]
+[9, 6]
+[8, 6]
+[7, 6]
+
+[7, 7]
+[7, 8]
+[7, 9]
+[7, 10]
+[7, 11]
+[7, 12]
+[7, 13]
+[7, 14]
+[7, 15]
+[7, 16]
+
+i: 4	[6; 17]
+xMin: 6
+xMax:18
+yMin:5
+yMax: 17
+[7, 17]
+[8, 17]
+[9, 17]
+[10, 17]
+[11, 17]
+[12, 17]
+[13, 17]
+[14, 17]
+[15, 17]
+[16, 17]
+[17, 17]
+[18, 17]
+
+[18, 16]
+[18, 15]
+[18, 14]
+[18, 13]
+[18, 12]
+[18, 11]
+[18, 10]
+[18, 9]
+[18, 8]
+[18, 7]
+[18, 6]
+[18, 5]
+
+[17, 5]
+[16, 5]
+[15, 5]
+[14, 5]
+[13, 5]
+[12, 5]
+[11, 5]
+[10, 5]
+[9, 5]
+[8, 5]
+[7, 5]
+[6, 5]
+
+[6, 6]
+[6, 7]
+[6, 8]
+[6, 9]
+[6, 10]
+[6, 11]
+[6, 12]
+[6, 13]
+[6, 14]
+[6, 15]
+[6, 16]
+[6, 17]
+
+i: 5	[5; 18]
+xMin: 5
+xMax:19
+yMin:4
+yMax: 18
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+[18, 18]
+[19, 18]
+
+[19, 17]
+[19, 16]
+[19, 15]
+[19, 14]
+[19, 13]
+[19, 12]
+[19, 11]
+[19, 10]
+[19, 9]
+[19, 8]
+[19, 7]
+[19, 6]
+[19, 5]
+[19, 4]
+
+[18, 4]
+[17, 4]
+[16, 4]
+[15, 4]
+[14, 4]
+[13, 4]
+[12, 4]
+[11, 4]
+[10, 4]
+[9, 4]
+[8, 4]
+[7, 4]
+[6, 4]
+[5, 4]
+
+[5, 5]
+[5, 6]
+[5, 7]
+[5, 8]
+[5, 9]
+[5, 10]
+[5, 11]
+[5, 12]
+[5, 13]
+[5, 14]
+[5, 15]
+[5, 16]
+[5, 17]
+[5, 18]
+
+i: 6	[4; 18]
+xMin: 4
+xMax:20
+yMin:3
+yMax: 18
+[5, 18]
+[6, 18]
+[7, 18]
+[8, 18]
+[9, 18]
+[10, 18]
+[11, 18]
+[12, 18]
+[13, 18]
+[14, 18]
+[15, 18]
+[16, 18]
+[17, 18]
+[18, 18]
+[19, 18]
+[20, 18]
+
+[20, 17]
+[20, 16]
+[20, 15]
+[20, 14]
+[20, 13]
+[20, 12]
+[20, 11]
+[20, 10]
+[20, 9]
+[20, 8]
+[20, 7]
+[20, 6]
+[20, 5]
+[20, 4]
+[20, 3]
+
+[19, 3]
+[18, 3]
+[17, 3]
+[16, 3]
+[15, 3]
+[14, 3]
+[13, 3]
+[12, 3]
+[11, 3]
+[10, 3]
+[9, 3]
+[8, 3]
+[7, 3]
+[6, 3]
+[5, 3]
+[4, 3]
+
+[4, 4]
+[4, 5]
+[4, 6]
+[4, 7]
+[4, 8]
+[4, 9]
+[4, 10]
+[4, 11]
+[4, 12]
+[4, 13]
+[4, 14]
+[4, 15]
+[4, 16]
+[4, 17]
+[4, 18]
+set to: [21, 18]  skip: 1
+
+i: 7	[21; 18]
+xMin: 3
+xMax:21
+yMin:2
+yMax: 18
+[21, 17]
+[21, 16]
+[21, 15]
+[21, 14]
+[21, 13]
+[21, 12]
+[21, 11]
+[21, 10]
+[21, 9]
+[21, 8]
+[21, 7]
+
+scouting to: [21, 7]
+
+position: [12,11]
+
+target: [21,7]
+
+advantageous direction: EAST
+
+advantageous direction: NORTH
+
+unfavorable direction: WEST
+
+unfavorable direction: SOUTH
+
+chosen direction: EAST
+doNotEnterFields.size(): 0
+time: 82
+Exception: java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null

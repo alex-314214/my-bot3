@@ -1,0 +1,32 @@
+JAVAC      := javac
+JAVA       := java
+MAIN_CLASS := Bot
+JSON_JAR   := json.jar
+TFH_JAR    := text-file-handler-2.0.1.jar
+OUT_DIR    := .
+
+# Detect classpath separator (':' on Unix/macOS, ';' on Windows)
+ifeq ($(OS),Windows_NT)
+  CP_SEP := ;
+else
+  CP_SEP := :
+endif
+
+CLASSPATH := $(OUT_DIR)$(CP_SEP)$(JSON_JAR)$(CP_SEP)$(TFH_JAR)
+
+SRC     := $(wildcard *.java)
+CLASSES := $(patsubst %.java,$(OUT_DIR)/%.class,$(SRC))
+
+.PHONY: all run clean
+
+all: $(OUT_DIR)
+	$(JAVAC) -cp $(JSON_JAR)$(CP_SEP)$(TFH_JAR) -d $(OUT_DIR) $(SRC)
+
+$(OUT_DIR):
+	mkdir -p $(OUT_DIR)
+
+run: all
+	$(JAVA) -cp $(CLASSPATH) $(MAIN_CLASS)
+
+clean:
+	rm -rf $(OUT_DIR)
