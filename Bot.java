@@ -96,8 +96,9 @@ public class Bot {
           log("target: [" + target.getX() + ", " + target.getY() +"]");
         } */
 
-        FieldHandler.Directions dir = think();
-        go(dir);
+        System.out.println("WAIT");
+        //FieldHandler.Directions dir = think();
+        //go(dir);
       
         firstTick = false;
       }

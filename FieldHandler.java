@@ -53,7 +53,12 @@ public class FieldHandler {
     }
 
     public Field getField(int x, int y) {
-        return fields.get(new Position(x, y));
+        Field field = fields.get(new Position(x, y));
+
+        if(field==null) {
+            System.out.println("no field at [" + x + "; " + y + "] -> return null");
+        }
+        return field;
     }
 
     /**
@@ -299,11 +304,12 @@ public class FieldHandler {
     private boolean hasUnkownNeighbours(Field field) {
         if(field!=null) {
             log("[" + field.getX() + ", " + field.getY() + "]");
-        }
-        for(FieldHandler.Directions direction: FieldHandler.Directions.values()) {
-            Field neighbour = getNeighbour(field, direction);
-            if(field.getType()==Field.Types.FLOOR && neighbour.getType()==Field.Types.UNKOWN ) {
-                return true;
+        
+            for(FieldHandler.Directions direction: FieldHandler.Directions.values()) {
+                Field neighbour = getNeighbour(field, direction);
+                if(field.getType()==Field.Types.FLOOR && neighbour.getType()==Field.Types.UNKOWN ) {
+                    return true;
+                }
             }
         }
 
