@@ -8,7 +8,7 @@ public class Logger {
     /**
      * Startet den Logger und überschreibt die Datei.
      */
-    public void start(String path) throws IOException {
+    public void init(String path) throws IOException {
         if (writer == null) {
             writer = new FileWriter(path, false);
         }

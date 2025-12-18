@@ -1,4 +1,3 @@
-
 public class Field {
 	
     public static enum Types {
@@ -15,16 +14,6 @@ public class Field {
         position = new Position(x, y);
         this.type = type;
     }
-
-/*     public void addNeighbour(Field neighbour) {
-        if (neighbour != null && !neighbours.contains(neighbour)) {
-            neighbours.add(neighbour);
-        }
-    }
-
-    public List<Field> getNeighbours() {
-        return Collections.unmodifiableList(neighbours);
-    } */
 
     public Position getPosition() {
         return position;

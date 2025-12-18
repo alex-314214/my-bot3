@@ -6,56 +6,35 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
+import java.util.Stack;
 
 import org.json.*;   // from json.jar
 
 public class Bot {
 
   public static int COUNT_TEST_PATHS = 1;
-  public static final boolean ENABLE_LOGGING = true;  
-  public static final Logger LOGGER = new Logger();
 
   private Position position;
-  private FieldHandler fieldHandler;
+  private MyMap map;
   private Set<Gem> gems = new HashSet<>();
   private Gem currentGem = null;
+  private boolean newCurrentGem = false;
   private Random rng = new Random(1L); 
-  private Set<Field> doNotEnterFields = new HashSet<>();
   private List<Field> visibleFloorFields = new ArrayList<>();
-  //private List<Field> floorFieldsWithUnkownNeighbours = new LinkedList<>();
   private int foundGems = 0;
-  private long tickStartTime = 0;
-  private Field scoutingTarget = null;
+  private Field target = null;
+  private Tactic tactic;
+  private Stack<MyMap.Directions> path = new Stack<>();
+  Pathfinder pathfinder;
 
   public static void main(String[] args) throws Exception {
-    try {
-      Bot bot = new Bot();
-      bot.processData();
-    } catch (Exception e) {
-        LOGGER.log("Exception: " + e.toString());
-        LOGGER.stop();
-        throw e;
-    }
-  }
-
-  private void log(String text) {
-    if (ENABLE_LOGGING) {
-        LOGGER.log(text);
-    }
+    Bot bot = new Bot();
+    bot.processData();
   }
 
   private void processData() {
-    if (ENABLE_LOGGING) {
-        try (FileWriter fw = new FileWriter("./ausgabe.txt", false)) {
-            // Datei wird hier geleert
-        } catch (IOException ignored) {}
-        try {
-          LOGGER.start("./ausgabe.txt");
-        } catch (IOException e) {
-          e.printStackTrace();
-        }
-    }
-
+    Utils.enableLogging();
+    
     BufferedReader br;
     try {
       br = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
@@ -63,7 +42,6 @@ public class Bot {
 
       String line;
       while (true) {
-        tickStartTime = System.currentTimeMillis();
         line = br.readLine();
 
         JSONObject data = new JSONObject(line);
@@ -81,26 +59,25 @@ public class Bot {
           System.err.println("arena width: " + width);
           System.err.println("arena height: " + height);
           
-          fieldHandler = new FieldHandler(width, height);
+          map = new MyMap(width, height);
+          pathfinder = new Pathfinder(map);
+          tactic = new PreferedDirection(map);
         }
-        updateFields(fieldHandler, data.optJSONArray("floor"), data.optJSONArray("wall"));
+
+        updateFields(map, data.optJSONArray("floor"), data.optJSONArray("wall"));
+        
         botJson = data.optJSONArray("bot");
         position = new Position(botJson.getInt(0), botJson.getInt(1));
+        Utils.log("\ncurrent bot postion: [" + position.getX() + ", " + position.getY() +"]\n");
+        
         updateGems(data.getJSONArray("visible_gems"));
-        //log("visibleGems: " + visibleGems.size());
-        log("\ncurrent bot postion: [" + position.getX() + ", " + position.getY() +"]\n");
-        //log(fieldHandler.createMap(position));
 
-/*         Field target = fieldHandler.getFloorFieldWithUnkownNeighbours(new Position(1, 4));
-        if(target!=null) {
-          log("target: [" + target.getX() + ", " + target.getY() +"]");
-        } */
+        //System.out.println("WAIT");
+        MyMap.Directions dir = think();
+        go(dir);
 
-        System.out.println("WAIT");
-        //FieldHandler.Directions dir = think();
-        //go(dir);
-      
         firstTick = false;
+         Utils.log("\n----------------------------------------------------------");
       }
     } 
     catch (UnsupportedEncodingException e) {
@@ -111,132 +88,44 @@ public class Bot {
       e.printStackTrace();
     }
     
-    if (ENABLE_LOGGING) {
-        LOGGER.stop();
-    }
-
+    Utils.disableLogging();
   }
   
-  private FieldHandler.Directions think() {
-    FieldHandler.Directions direction = null;
-    log(fieldHandler.createMap(position));
-    // current gem existing
-    if(currentGem!=null) {
-      direction = determineDirection(currentGem.getField().getPosition());
-      scoutingTarget = null;
+  private MyMap.Directions think() {
+    MyMap.Directions direction = null;
+    String msg;
+    Utils.log(map.createMap(position));
+    
+    // if currentGem existing go for it otherwise scout
+    if(newCurrentGem) {
+      target = currentGem.getField();
+      msg = "new path to new gem! steps: "; 
     }
-    else { // current gem not existing
-      Field target = scout();
-      if(target!=null) {
-        direction = determineDirection(target.getPosition());
-      }
+    else if(path.size()==0) {
+      target = scout();
+      msg = "new path for scouting! steps: ";
     }
+    else {
+      msg = "UNEXPECTED! ";
+    }
+    path = pathfinder.findPathBFS(map.getField(position), target);
+    Utils.log(msg + path.size());
+    
+    if(!path.isEmpty()) {
+      direction = path.pop();
+    }
+    
+    Utils.log("\ntarget: [" + target.getX() + ", " + target.getY() + "]");
+    Utils.log("\ndirection: " + direction);
 
-    log("doNotEnterFields.size(): " + doNotEnterFields.size());
-
-    if(direction==null) {
-      Field target = fieldHandler.getRandomFloorField(rng);
-      doNotEnterFields.clear();
-      direction = determineDirection(target.getPosition());
-    }
     return direction;
   }
 
-  private boolean checkDirection(FieldHandler.Directions direction) {
-    Field neighbour = fieldHandler.getNeighbour(position, direction);
-    if(neighbour.isAccessible() && !doNotEnterFields.contains(neighbour)) {
-        return true;
-    }
-    return false;
+  private MyMap.Directions determineDirection(Position target) {
+    return tactic.determineDirection(position, target);
   }
 
-
-  private FieldHandler.Directions determineDirection(Position target) {
-    List<FieldHandler.Directions> advantageousDirections = new ArrayList<>();
-    List<FieldHandler.Directions> unfavorableDirections = new ArrayList<>();
-
-    log("position: [" + position.getX() + "," + position.getY() + "]\n");
-    log("target: [" + target.getX() + "," + target.getY() + "]\n");
-    if(target.getX()<position.getX()) {
-      if(checkDirection(FieldHandler.Directions.WEST)) {
-        advantageousDirections.add(FieldHandler.Directions.WEST);
-      }
-      if(checkDirection(FieldHandler.Directions.EAST)) {
-        unfavorableDirections.add(FieldHandler.Directions.EAST);
-      }
-    }
-    else if(target.getX()>position.getX()) {
-      if(checkDirection(FieldHandler.Directions.WEST)) {
-        unfavorableDirections.add(FieldHandler.Directions.WEST);
-      }
-      if(checkDirection(FieldHandler.Directions.EAST)) {
-        advantageousDirections.add(FieldHandler.Directions.EAST);
-      }
-    }
-    else {
-      if(checkDirection(FieldHandler.Directions.WEST)) {
-        unfavorableDirections.add(FieldHandler.Directions.WEST);
-      }
-      if(checkDirection(FieldHandler.Directions.EAST)) {
-        unfavorableDirections.add(FieldHandler.Directions.EAST);
-      }
-    }
-
-    if(target.getY()<position.getY()) {
-      if(checkDirection(FieldHandler.Directions.NORTH)) {
-        advantageousDirections.add(FieldHandler.Directions.NORTH);
-      }
-      if(checkDirection(FieldHandler.Directions.SOUTH)) {
-        unfavorableDirections.add(FieldHandler.Directions.SOUTH);
-      } 
-    }
-    else if(target.getY()>position.getY()) {
-      if(checkDirection(FieldHandler.Directions.NORTH)) {
-        unfavorableDirections.add(FieldHandler.Directions.NORTH);
-      }
-      if(checkDirection(FieldHandler.Directions.SOUTH)) {
-        advantageousDirections.add(FieldHandler.Directions.SOUTH);
-      } 
-    }
-    else {
-      if(checkDirection(FieldHandler.Directions.NORTH)) {
-        unfavorableDirections.add(FieldHandler.Directions.NORTH);
-      }
-      if(checkDirection(FieldHandler.Directions.SOUTH)) {
-        unfavorableDirections.add(FieldHandler.Directions.SOUTH);
-      } 
-    }
-
-    StringBuffer sb = new StringBuffer();
-    for(FieldHandler.Directions direction: advantageousDirections) {
-     log("advantageous direction: " + direction + "\n");
-    }
-    for(FieldHandler.Directions direction: unfavorableDirections) {
-     log("unfavorable direction: " + direction + "\n");
-    }
-    for(Field  field: doNotEnterFields) {
-     log("do not enter fields: [" + field.getX() + ", " + field.getY() + "]\n");
-    }
-
-    if (!advantageousDirections.isEmpty()) {
-      FieldHandler.Directions direction = advantageousDirections.get(rng.nextInt(advantageousDirections.size()));
-      log("chosen direction: "+direction);
-      return direction;
-    }
-    else if (!unfavorableDirections.isEmpty()) {
-      doNotEnterFields.add(fieldHandler.getField(position));
-      FieldHandler.Directions direction = unfavorableDirections.get(rng.nextInt(unfavorableDirections.size()));
-      log("chosen direction: "+direction);
-      return direction;
-    } 
-    else {
-        log("chosen direction: keine");
-        return null;
-    }
-
-  }
-
-  private void go(FieldHandler.Directions direction) {
+  private void go(MyMap.Directions direction) {
     if (direction == null) {
         System.out.println("WAIT");
         System.out.flush();
@@ -258,7 +147,6 @@ public class Bot {
             break;
     }
     System.out.flush();
-    log("time: "  + (System.currentTimeMillis()-tickStartTime));
   }
 
   private Gem getNearestGem() {
@@ -277,44 +165,40 @@ public class Bot {
   }
 
   public void updateGems(JSONArray visibleGemsJson) {
-    //visibleGems.clear();
+    Field botField = map.getField(position);
+    Gem foundGem = null;
+    Gem formerCurrentGem = currentGem;
+    LinkedList<Gem> gemsToBeRemoved = new LinkedList<>();
 
-    // gem found?
-    Field botField = fieldHandler.getField(position);
-    if(currentGem!=null && currentGem.getField().getPosition().equals(botField.getPosition())) {
-      foundGems++;
-      log("\nfound gems: " + foundGems + "\n");
-      botField.removeGem();
-      currentGem = null;
-      doNotEnterFields.clear();
+    // check known gems
+    for(Gem gem: gems) {
+      // gem found?
+      if(botField.getPosition().equals(gem.getField().getPosition())) {
+        foundGem = gem;
+      }
+
+      // adjust ttl
+      if(gem.reduceTtl()==null) {
+        gemsToBeRemoved.add(gem);
+      };
     }
-    else {
-      for(Gem gem: gems) {
-        if(botField.getPosition().equals(gem.getField().getPosition())) {
-          foundGems++;
-          log("\nfound gems: " + foundGems + "\n");
-          botField.removeGem();
-          gems.remove(gem);
-          break;
-        }
+
+    for(Gem gem: gemsToBeRemoved) {
+      gems.remove(gem);
+    }
+
+    // remove gem if found
+    if(foundGem!=null) {
+      foundGems++;
+      Utils.log("\nfound gems: " + foundGems + "\n");
+      botField.removeGem();
+      gems.remove(foundGem);
+      if(currentGem==foundGem) {
+        currentGem=null;
       }
     }
-
-    // adjust ttl
-    for(Gem gem: gems) {
-      if(gem.reduceTtl()==null) {
-        gems.remove(gem);
-      };
-    }
-    if(currentGem!=null) {
-      currentGem.reduceTtl();
-      if(currentGem.reduceTtl()==null) {
-        currentGem = null;
-        doNotEnterFields.clear();
-      };
-    }
-
-    // adjust gems
+    
+    // add visiblie gems if they are not already known
     if(visibleGemsJson!=null) {
       for (int i = 0; i < visibleGemsJson.length(); i++) {
           JSONObject jsonGem = visibleGemsJson.getJSONObject(i);
@@ -322,140 +206,87 @@ public class Bot {
           int ttl = jsonGem.getInt("ttl");
           int x = pos.getInt(0);
           int y = pos.getInt(1);
-          Field field = fieldHandler.getField(x, y);
-          Gem gem = field.getGem();
-          if(gem==null) {
-            gem = new Gem(field, ttl);
+          Field field = map.getField(x, y);
+         
+          // new gem?
+          if(field.getGem()==null) {
+            field.setGem(new Gem(field, ttl));
+            gems.add(field.getGem());
           } 
-          //visibleGems.add(gem);
-
-          // add gem if it does not already exist 
-          boolean exists = false;
-          for(Gem g: gems) {
-            if(g.getField().getPosition().equals(gem.getField().getPosition())) {
-              exists = true;
-              break;
-            }
-          }
-          if(!exists) {
-            gems.add(gem);
-          }
       }
     }
 
-    // no current gem?
-    if(currentGem==null) {
-      currentGem = getNearestGem();
-      gems.remove(currentGem);
+    // select currentGem
+    Gem nearestGem = getNearestGem();
+    if(currentGem!=nearestGem) {
+      currentGem = nearestGem;
+      tactic.reset();
+    }
+
+    newCurrentGem = false;
+    if(currentGem!=formerCurrentGem && currentGem!=null) {
+        newCurrentGem = true;
+    }
+
+    // Utils.log
+    if (Utils.isLoggingEnabled()) {
+      StringBuffer sb = new StringBuffer("Gems:");
       if(currentGem!=null) {
-        doNotEnterFields.clear();
+        sb.append(" current gem at: [" + currentGem.getField().getPosition().getX() + ", " + currentGem.getField().getPosition().getY() + "] with TTL + " + currentGem.getTtl());
       }
+      else {
+        sb.append(" no current gem");
+      }
+      sb.append("\ngems set:\n");
+      for(Gem gem: gems) {
+        sb.append(" - Gem at [" + gem.getField().getPosition().getX() + ", " + gem.getField().getPosition().getY() + "] with TTL + " + gem.getTtl() + "\n");
+      }
+      Utils.log(sb.toString());
     }
-
-    // log
-    StringBuffer sb = new StringBuffer("\nGems:\n");
-    if(currentGem!=null) {
-      sb.append("\ncurrent gem at: [" + currentGem.getField().getPosition().getX() + ", " + currentGem.getField().getPosition().getY() + "] with TTL + " + currentGem.getTtl() + "\n");
-    }
-    else {
-      sb.append("\nno current gem\n");
-    }
-    sb.append("\ngems set:\n");
-    for(Gem gem: gems) {
-      sb.append("Gem at [" + gem.getField().getPosition().getX() + ", " + gem.getField().getPosition().getY() + "] with TTL + " + gem.getTtl() + "\n");
-    }
-    log(sb.toString());
   }
 
-  public void updateFields(FieldHandler fieldHandler, JSONArray floor, JSONArray wall) {
+  public void updateFields(MyMap map, JSONArray floor, JSONArray wall) {
     visibleFloorFields.clear();
 
     for(int i=0; i<floor.length(); i++) {
       JSONArray position = floor.getJSONArray(i);
       int x = position.getInt(0);
       int y = position.getInt(1);
-      Field field = fieldHandler.getField(x, y);
+      Field field = map.getField(x, y);
       if(field.getType()==Field.Types.UNKOWN) {
         field = new Field(x, y, Field.Types.FLOOR);
-        fieldHandler.addField(field);
-        //log("\nvisible floor field: [" + field.getX() + ", " + field.getY() + "]\n");
+        map.addField(field);
+        //Utils.log("\nvisible floor field: [" + field.getX() + ", " + field.getY() + "]\n");
       }     
       visibleFloorFields.add(field);
-      
     } 
 
     for(int i=0; i<wall.length(); i++) {
       JSONArray position = wall.getJSONArray(i);
       int x = position.getInt(0);
       int y = position.getInt(1);
-      Field field = fieldHandler.getField(x, y);
+      Field field = map.getField(x, y);
       if(field.getType()==Field.Types.UNKOWN) {
         field = new Field(x, y, Field.Types.WALL);
-        fieldHandler.addField(field);
-        //log("\nvisible wall field: [" + field.getX() + ", " + field.getY() + "]\n");
+        map.addField(field);
+        //Utils.log("\nvisible wall field: [" + field.getX() + ", " + field.getY() + "]\n");
       }   
     } 
   }
 
   private Field scout() {
-    Field nearestField = null;
-    int shortestDistance = 9999999;
-    List<Field> visibleFloorFieldsWithUnkownNeighbours = fieldHandler.getFloorFieldsWithUnkownNeighbours(visibleFloorFields);
-    List<Field> floorFieldsWithUnkownNeighbours;
-    log("\nscouting:\n");
-    log("\nvisibleFloorFields.size(): " + visibleFloorFields.size());
-    log("\nvisibleFloorFieldsWithUnkownNeighbours.size(): " + visibleFloorFieldsWithUnkownNeighbours.size() + "\n");
-    if(visibleFloorFieldsWithUnkownNeighbours.size()>0) {
-      for(Field field: visibleFloorFieldsWithUnkownNeighbours) {
-        if(!field.getPosition().equals(position)) {
-          //log("\nvisible floor fields with unkown neighbours: [" + field.getX() + ", " + field.getY() + "]\n");
-          if(nearestField==null) {
-            shortestDistance = position.getDistance(field.getPosition());
-            nearestField = field;
-          }
-          else {
-            int distance = position.getDistance(field.getPosition());
-            if(shortestDistance>distance) {
-              shortestDistance = distance;
-              nearestField = field;
-            }
-          }
-        }
-      }
-      if(nearestField!=null){
-        log("\nnearestField: [" + nearestField.getX() + ", " + nearestField.getY() + "] \tshortest distance: " + shortestDistance + "\n");
-      }
-      scoutingTarget = null;
-      return nearestField;
+    Utils.log("\nscouting:");
+    Field target = map.getFloorFieldWithUnkownNeighbours(position);
+
+    if(target!=null) {
+      Utils.log(" scouting nearest floor field with unkown neighbours: [" + target.getX() + ", " + target.getY() + "]\n");
     }
-    else  {
-/*       floorFieldsWithUnkownNeighbours = fieldHandler.getFloorFieldsWithUnkownNeighbours(position);
-      if(floorFieldsWithUnkownNeighbours.size()>0) {
-        Field field = floorFieldsWithUnkownNeighbours.get(floorFieldsWithUnkownNeighbours.size()-1);
-        if(field.equals(fieldHandler.getField(position))) {
-          floorFieldsWithUnkownNeighbours.remove(field);
-          if(floorFieldsWithUnkownNeighbours.size()>0) {
-            field = floorFieldsWithUnkownNeighbours.get(floorFieldsWithUnkownNeighbours.size()-1);
-          }
-        }
-        log("\nscouting field from floorFieldsWithUnkownNeighbours: [" + field.getX() + ", " + field.getY() + "]\n");
-        
-        return field;
-      } 
-      else {
-        log("\n scouting Field: null\n");
-        return null;
-      } */
-      Field target = fieldHandler.getFloorFieldWithUnkownNeighbours(position);
-      if(target!=null) {
-        log("\nscouting to: [" + target.getX() + ", " + target.getY() + "]\n");
-      }
-      else{
-        log("\nscouting to: null");
-        target = fieldHandler.getRandomFloorField(rng);
-      }
-      scoutingTarget = target;
-      return target;
-    }    
-  }
+    else{
+      Utils.log(" random scouting\n");
+      target = map.getRandomFloorField(rng);
+    }
+
+    return target;
+  }    
+
 }
